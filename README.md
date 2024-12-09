@@ -32,9 +32,9 @@ pip install pandas numpy matplotlib scipy mat4py
 
 ## Usage
 
-1. **Prepare your Excel file**: Save your motion capture data in `motiondata.xlsx`.
+1. **Prepare Excel file**: Save motion capture data in `motiondata.xlsx`.
 
-2. **Run the Code**: Execute the script in a Python environment.
+2. **Run Code**: Execute the script in a Python environment.
 
 ```bash
 python script.py
@@ -50,14 +50,3 @@ python script.py
 - **calculate_distance(p1, p2)**: Computes Euclidean distance between two points.
 - **calculate_angle_between_points(p1, p2, p3)**: Calculates the angle formed by three points.
 - **calculate_walking_speed(start, end, final_time)**: Computes walking speed given start and end positions over time.
-
-## Plot Example
-
-The included plot showcases angles of different body parts over time for each sheet in the Excel file, annotated with the calculated walking speed.
-
-## Author
-
-Vu Anh Minh Le
-
----
-
